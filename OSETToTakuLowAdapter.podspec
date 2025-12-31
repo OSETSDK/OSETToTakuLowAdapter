@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OSETToTakuLowAdapter"
-  s.version      = "6.6.2.4"
+  s.version      = "6.6.2.5"
   s.summary      = "AdSet广告对接Taku适配器"
   s.description  = <<-DESC
                     OSETSDK 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
@@ -30,6 +30,6 @@ Pod::Spec.new do |s|
   
   # ================= 第三方依赖库 =================
  
-  s.dependency 'OSETSDK','>=6.6.2.4'
+  s.dependency 'OSETSDK','>=6.6.2.5'
   s.dependency 'AnyThinkiOS','<6.4.94'
 end
